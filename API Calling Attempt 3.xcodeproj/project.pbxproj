@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FC1447227BF677D00CF5EEC /* API_Calling_Attempt_3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1447127BF677D00CF5EEC /* API_Calling_Attempt_3App.swift */; };
+		3FC1447427BF677D00CF5EEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1447327BF677D00CF5EEC /* ContentView.swift */; };
+		3FC1447627BF678100CF5EEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC1447527BF678100CF5EEC /* Assets.xcassets */; };
+		3FC1447927BF678100CF5EEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC1447827BF678100CF5EEC /* Preview Assets.xcassets */; };
+		3FC1448427BF678200CF5EEC /* API_Calling_Attempt_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1448327BF678200CF5EEC /* API_Calling_Attempt_3Tests.swift */; };
+		3FC1448F27BF678200CF5EEC /* API_Calling_Attempt_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1448E27BF678200CF5EEC /* API_Calling_Attempt_3UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FC1448027BF678200CF5EEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FC1446627BF677D00CF5EEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FC1446D27BF677D00CF5EEC;
+			remoteInfo = "API Calling Attempt 3";
+		};
+		3FC1448B27BF678200CF5EEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FC1446627BF677D00CF5EEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FC1446D27BF677D00CF5EEC;
+			remoteInfo = "API Calling Attempt 3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FC1446E27BF677D00CF5EEC /* API Calling Attempt 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "API Calling Attempt 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC1447127BF677D00CF5EEC /* API_Calling_Attempt_3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_Calling_Attempt_3App.swift; sourceTree = "<group>"; };
+		3FC1447327BF677D00CF5EEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3FC1447527BF678100CF5EEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FC1447827BF678100CF5EEC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3FC1447A27BF678100CF5EEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC1447F27BF678200CF5EEC /* API Calling Attempt 3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "API Calling Attempt 3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC1448327BF678200CF5EEC /* API_Calling_Attempt_3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_Calling_Attempt_3Tests.swift; sourceTree = "<group>"; };
+		3FC1448527BF678200CF5EEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC1448A27BF678200CF5EEC /* API Calling Attempt 3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "API Calling Attempt 3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC1448E27BF678200CF5EEC /* API_Calling_Attempt_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_Calling_Attempt_3UITests.swift; sourceTree = "<group>"; };
+		3FC1449027BF678200CF5EEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FC1446B27BF677D00CF5EEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC1447C27BF678200CF5EEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC1448727BF678200CF5EEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FC1446527BF677D00CF5EEC = {
+			isa = PBXGroup;
+			children = (
+				3FC1447027BF677D00CF5EEC /* API Calling Attempt 3 */,
+				3FC1448227BF678200CF5EEC /* API Calling Attempt 3Tests */,
+				3FC1448D27BF678200CF5EEC /* API Calling Attempt 3UITests */,
+				3FC1446F27BF677D00CF5EEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FC1446F27BF677D00CF5EEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FC1446E27BF677D00CF5EEC /* API Calling Attempt 3.app */,
+				3FC1447F27BF678200CF5EEC /* API Calling Attempt 3Tests.xctest */,
+				3FC1448A27BF678200CF5EEC /* API Calling Attempt 3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FC1447027BF677D00CF5EEC /* API Calling Attempt 3 */ = {
+			isa = PBXGroup;
+			children = (
+				3FC1447127BF677D00CF5EEC /* API_Calling_Attempt_3App.swift */,
+				3FC1447327BF677D00CF5EEC /* ContentView.swift */,
+				3FC1447527BF678100CF5EEC /* Assets.xcassets */,
+				3FC1447A27BF678100CF5EEC /* Info.plist */,
+				3FC1447727BF678100CF5EEC /* Preview Content */,
+			);
+			path = "API Calling Attempt 3";
+			sourceTree = "<group>";
+		};
+		3FC1447727BF678100CF5EEC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3FC1447827BF678100CF5EEC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3FC1448227BF678200CF5EEC /* API Calling Attempt 3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3FC1448327BF678200CF5EEC /* API_Calling_Attempt_3Tests.swift */,
+				3FC1448527BF678200CF5EEC /* Info.plist */,
+			);
+			path = "API Calling Attempt 3Tests";
+			sourceTree = "<group>";
+		};
+		3FC1448D27BF678200CF5EEC /* API Calling Attempt 3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FC1448E27BF678200CF5EEC /* API_Calling_Attempt_3UITests.swift */,
+				3FC1449027BF678200CF5EEC /* Info.plist */,
+			);
+			path = "API Calling Attempt 3UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FC1446D27BF677D00CF5EEC /* API Calling Attempt 3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC1449327BF678200CF5EEC /* Build configuration list for PBXNativeTarget "API Calling Attempt 3" */;
+			buildPhases = (
+				3FC1446A27BF677D00CF5EEC /* Sources */,
+				3FC1446B27BF677D00CF5EEC /* Frameworks */,
+				3FC1446C27BF677D00CF5EEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "API Calling Attempt 3";
+			productName = "API Calling Attempt 3";
+			productReference = 3FC1446E27BF677D00CF5EEC /* API Calling Attempt 3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FC1447E27BF678200CF5EEC /* API Calling Attempt 3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC1449627BF678200CF5EEC /* Build configuration list for PBXNativeTarget "API Calling Attempt 3Tests" */;
+			buildPhases = (
+				3FC1447B27BF678200CF5EEC /* Sources */,
+				3FC1447C27BF678200CF5EEC /* Frameworks */,
+				3FC1447D27BF678200CF5EEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FC1448127BF678200CF5EEC /* PBXTargetDependency */,
+			);
+			name = "API Calling Attempt 3Tests";
+			productName = "API Calling Attempt 3Tests";
+			productReference = 3FC1447F27BF678200CF5EEC /* API Calling Attempt 3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FC1448927BF678200CF5EEC /* API Calling Attempt 3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC1449927BF678200CF5EEC /* Build configuration list for PBXNativeTarget "API Calling Attempt 3UITests" */;
+			buildPhases = (
+				3FC1448627BF678200CF5EEC /* Sources */,
+				3FC1448727BF678200CF5EEC /* Frameworks */,
+				3FC1448827BF678200CF5EEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FC1448C27BF678200CF5EEC /* PBXTargetDependency */,
+			);
+			name = "API Calling Attempt 3UITests";
+			productName = "API Calling Attempt 3UITests";
+			productReference = 3FC1448A27BF678200CF5EEC /* API Calling Attempt 3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FC1446627BF677D00CF5EEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					3FC1446D27BF677D00CF5EEC = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					3FC1447E27BF678200CF5EEC = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 3FC1446D27BF677D00CF5EEC;
+					};
+					3FC1448927BF678200CF5EEC = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 3FC1446D27BF677D00CF5EEC;
+					};
+				};
+			};
+			buildConfigurationList = 3FC1446927BF677D00CF5EEC /* Build configuration list for PBXProject "API Calling Attempt 3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FC1446527BF677D00CF5EEC;
+			productRefGroup = 3FC1446F27BF677D00CF5EEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FC1446D27BF677D00CF5EEC /* API Calling Attempt 3 */,
+				3FC1447E27BF678200CF5EEC /* API Calling Attempt 3Tests */,
+				3FC1448927BF678200CF5EEC /* API Calling Attempt 3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FC1446C27BF677D00CF5EEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC1447927BF678100CF5EEC /* Preview Assets.xcassets in Resources */,
+				3FC1447627BF678100CF5EEC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC1447D27BF678200CF5EEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC1448827BF678200CF5EEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FC1446A27BF677D00CF5EEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC1447427BF677D00CF5EEC /* ContentView.swift in Sources */,
+				3FC1447227BF677D00CF5EEC /* API_Calling_Attempt_3App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC1447B27BF678200CF5EEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC1448427BF678200CF5EEC /* API_Calling_Attempt_3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC1448627BF678200CF5EEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC1448F27BF678200CF5EEC /* API_Calling_Attempt_3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FC1448127BF678200CF5EEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FC1446D27BF677D00CF5EEC /* API Calling Attempt 3 */;
+			targetProxy = 3FC1448027BF678200CF5EEC /* PBXContainerItemProxy */;
+		};
+		3FC1448C27BF678200CF5EEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FC1446D27BF677D00CF5EEC /* API Calling Attempt 3 */;
+			targetProxy = 3FC1448B27BF678200CF5EEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3FC1449127BF678200CF5EEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FC1449227BF678200CF5EEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FC1449427BF678200CF5EEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"API Calling Attempt 3/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "API Calling Attempt 3/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KagehNerto-Group.API-Calling-Attempt-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FC1449527BF678200CF5EEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"API Calling Attempt 3/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "API Calling Attempt 3/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KagehNerto-Group.API-Calling-Attempt-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FC1449727BF678200CF5EEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "API Calling Attempt 3Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KagehNerto-Group.API-Calling-Attempt-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/API Calling Attempt 3.app/API Calling Attempt 3";
+			};
+			name = Debug;
+		};
+		3FC1449827BF678200CF5EEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "API Calling Attempt 3Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KagehNerto-Group.API-Calling-Attempt-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/API Calling Attempt 3.app/API Calling Attempt 3";
+			};
+			name = Release;
+		};
+		3FC1449A27BF678200CF5EEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "API Calling Attempt 3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KagehNerto-Group.API-Calling-Attempt-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "API Calling Attempt 3";
+			};
+			name = Debug;
+		};
+		3FC1449B27BF678200CF5EEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "API Calling Attempt 3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KagehNerto-Group.API-Calling-Attempt-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "API Calling Attempt 3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FC1446927BF677D00CF5EEC /* Build configuration list for PBXProject "API Calling Attempt 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC1449127BF678200CF5EEC /* Debug */,
+				3FC1449227BF678200CF5EEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FC1449327BF678200CF5EEC /* Build configuration list for PBXNativeTarget "API Calling Attempt 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC1449427BF678200CF5EEC /* Debug */,
+				3FC1449527BF678200CF5EEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FC1449627BF678200CF5EEC /* Build configuration list for PBXNativeTarget "API Calling Attempt 3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC1449727BF678200CF5EEC /* Debug */,
+				3FC1449827BF678200CF5EEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FC1449927BF678200CF5EEC /* Build configuration list for PBXNativeTarget "API Calling Attempt 3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC1449A27BF678200CF5EEC /* Debug */,
+				3FC1449B27BF678200CF5EEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FC1446627BF677D00CF5EEC /* Project object */;
+}
