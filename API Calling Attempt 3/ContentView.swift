@@ -22,7 +22,7 @@ struct ContentView: View {
                         Text(IMDB.imageURL)
                     })
             }
-            .navigationTitle("Programming Jokes")
+            .navigationTitle("IMDB Listing")
         }
         .onAppear(perform: {
             getIMDB()
@@ -36,7 +36,7 @@ struct ContentView: View {
     func getIMDB() {
         let apiKey = "?rapidapi-key=(e466d8cfeamsh994ebcf54622aeep17993cjsn2fbf6b8204a6)"
         
-        let query = "https://dad-jokes.p.rapidapi.com/joke/type/programming\(apiKey)"
+        let query = "https://rawg-video-games-database.p.rapidapi.com/games\(apiKey)"
         
         if let url = URL(string: query) {
             if let data = try? Data(contentsOf: url) {
@@ -46,7 +46,7 @@ struct ContentView: View {
                     for item in contents {
                         let setup = item["imageURL"].stringValue
                         let width = item["width"].stringValue
-                        let joke = IMDB(imageURL: imageURL, width: width)
+                        let IMDB = IMDB(imageURL: imageURL, width: width)
                         IMDB.append(IMDB)
                     }
                     return
@@ -64,6 +64,7 @@ struct ContentView: View {
     }
     
     struct IMDB: Identifiable {
+        var id: ObjectIdentifier
         let height = UUID()
         var imageURL: String
         var width: String
