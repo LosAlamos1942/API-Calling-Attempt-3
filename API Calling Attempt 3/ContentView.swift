@@ -8,65 +8,65 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var IMDB = [IMDB]()
     @State private var showingAlert = false
-    
-    
+    @State private var shows = [Show]()
     var body: some View {
         NavigationView {
-            List(IMDB) { IMDB in
+            List(shows) { show in
                 NavigationLink(
-                    destination: Text(IMDB.width)
-                        .padding(),
+                    destination: VStack {
+                        Text(show.actors)
+                            .padding()
+    
+                    },
                     label: {
-                        Text(IMDB.imageURL)
+                        Text(show.title)
                     })
             }
-            .navigationTitle("IMDB Listing")
+            .navigationTitle("Listing of Shows")
         }
         .onAppear(perform: {
-            getIMDB()
+            getShow()
         })
-        .alert(isPresented: $showingAlert, content: {
+        .alert(isPresented: $showingAlert) {
             Alert(title: Text("Loading Error"),
                   message: Text("There was a problem loading the data"),
                   dismissButton: .default(Text("OK")))
-        })
+        }
+        
     }
-    func getIMDB() {
-        let apiKey = "?rapidapi-key=(e466d8cfeamsh994ebcf54622aeep17993cjsn2fbf6b8204a6)"
-        
-        let query = "https://rawg-video-games-database.p.rapidapi.com/games\(apiKey)"
-        
+    func getShow() {
+        let apiKey = "rapidapi-key=e466d8cfeamsh994ebcf54622aeep17993cjsn2fbf6b8204a6"
+        let query = "https://imdb8.p.rapidapi.com/auto-complete/?q=Game%20of%20Thrones&\(apiKey)"
         if let url = URL(string: query) {
             if let data = try? Data(contentsOf: url) {
                 let json = try! JSON(data: data)
-                if json["success"] == true {
-                    let contents = json["body"].arrayValue
-                    for item in contents {
-                        let setup = item["imageURL"].stringValue
-                        let width = item["width"].stringValue
-                        let IMDB = IMDB(imageURL: imageURL, width: width)
-                        IMDB.append(IMDB)
-                    }
-                    return
+                let contents = json["d"].arrayValue
+                for item in contents {
+                    let title = item["l"].stringValue
+                    let actors = item["s"].stringValue // (Add value to show destination. Reminder)
+                    let show = Show(title: title, actors: actors)
+                    shows.append(show)
                 }
+                return
             }
         }
         showingAlert = true
     }
     
-    
-    struct ContentView_Previews: PreviewProvider {
-        static var previews: some View {
-            ContentView()
-        }
-    }
-    
-    struct IMDB: Identifiable {
-        var id: ObjectIdentifier
-        let height = UUID()
-        var imageURL: String
-        var width: String
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
     }
 }
+struct Show: Identifiable {
+    let id = UUID()
+    var title: String
+    var actors: String
+}
+
+
+
+
